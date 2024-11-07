@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head', {title: head_title}) %>
+</head>
+<body>
+
+    <header id="top">
+        <%- include('partials/header') %>
+    </header>
+
+    <main>
+        <section class="container">
+            <section class="info">
+                <h1>Colección de películas</h1>
+                <p>Gestiona tus colecciones de forma fácil y rápida. Busca entre las películas añadidas por otros usuarios y amplía tu colección.</p>
+            </section>
+            
+            <div class="inner" id="movieGallery">
+              <% imagenes.forEach(imagen => { %>
+                  <figure>
+                      <img 
+                          src="<%= imagen.url %>" 
+                          alt="Imagen de la película"
+                          data-title="<%= imagen.title %>"
+                          data-genre="<%= imagen.genre %>"
+                          data-year="<%= imagen.year %>"
+                          data-director="<%= imagen.director %>"
+                          data-rating="<%= imagen.rating %>">
+                      <figcaption><%= imagen.title %></figcaption>
+                  </figure>        
+              <% }) %>  
+            </div>
+
+            <%- include('partials/info') %>
+            
+        </section>
+    </main>
+
+    <footer>
+        <%- include('partials/footer') %>
+    </footer>
+
+    <script src="/javascripts/script.js"></script>
+    
+</body>
+</html>

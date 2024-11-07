@@ -1,0 +1,182 @@
+[
+  {
+      "id": 1,
+      "title": "The Great Escape",
+      "genre": "Action",
+      "director": "John Doe",
+      "year": 2021,
+      "rating": 7.5,
+      "url": "https://picsum.photos/300?1"
+  },
+  {
+      "id": 2,
+      "title": "A Journey Within",
+      "genre": "Drama",
+      "director": "Jane Smith",
+      "year": 2020,
+      "rating": 8.2,
+      "url": "https://picsum.photos/300?2"
+  },
+  {
+      "id": 3,
+      "title": "Galactic War",
+      "genre": "Sci-Fi",
+      "director": "Emily Johnson",
+      "year": 2019,
+      "rating": 7.9,
+      "url": "https://picsum.photos/300?3"
+  },
+  {
+      "id": 4,
+      "title": "Love in the City",
+      "genre": "Romance",
+      "director": "Michael Brown",
+      "year": 2022,
+      "rating": 6.8,
+      "url": "https://picsum.photos/300?4"
+  },
+  {
+      "id": 5,
+      "title": "Mystery at Midnight",
+      "genre": "Thriller",
+      "director": "Chris Davis",
+      "year": 2018,
+      "rating": 7.4,
+      "url": "https://picsum.photos/300?5"
+  },
+  {
+      "id": 6,
+      "title": "The Last Frontier",
+      "genre": "Adventure",
+      "director": "Sarah Lee",
+      "year": 2023,
+      "rating": 8.5,
+      "url": "https://picsum.photos/300?6"
+  },
+  {
+      "id": 7,
+      "title": "Dance of Shadows",
+      "genre": "Horror",
+      "director": "Tom Green",
+      "year": 2019,
+      "rating": 6.7,
+      "url": "https://picsum.photos/300?7"
+  },
+  {
+      "id": 8,
+      "title": "Echoes of Eternity",
+      "genre": "Fantasy",
+      "director": "Anna White",
+      "year": 2021,
+      "rating": 8.1,
+      "url": "https://picsum.photos/300?8"
+  },
+  {
+      "id": 9,
+      "title": "The Silent Cry",
+      "genre": "Drama",
+      "director": "Robert Hall",
+      "year": 2022,
+      "rating": 7.2,
+      "url": "https://picsum.photos/300?9"
+  },
+  {
+      "id": 10,
+      "title": "Chasing the Horizon",
+      "genre": "Adventure",
+      "director": "David Wilson",
+      "year": 2020,
+      "rating": 8.0,
+      "url": "https://picsum.photos/300?10"
+  },
+  {
+      "id": 11,
+      "title": "Invisible Chains",
+      "genre": "Thriller",
+      "director": "Laura Martinez",
+      "year": 2021,
+      "rating": 7.6,
+      "url": "https://picsum.photos/300?11"
+  },
+  {
+      "id": 12,
+      "title": "Whispers in the Dark",
+      "genre": "Horror",
+      "director": "James Brown",
+      "year": 2018,
+      "rating": 6.9,
+      "url": "https://picsum.photos/300?12"
+  },
+  {
+      "id": 13,
+      "title": "City of Dreams",
+      "genre": "Drama",
+      "director": "Patricia King",
+      "year": 2023,
+      "rating": 8.3,
+      "url": "https://picsum.photos/300?13"
+  },
+  {
+      "id": 14,
+      "title": "Rise of the Titans",
+      "genre": "Action",
+      "director": "William Scott",
+      "year": 2019,
+      "rating": 7.8,
+      "url": "https://picsum.photos/300?14"
+  },
+  {
+      "id": 15,
+      "title": "The Long Goodbye",
+      "genre": "Romance",
+      "director": "Jennifer Lewis",
+      "year": 2020,
+      "rating": 6.5,
+      "url": "https://picsum.photos/300?15"
+  },
+  {
+      "id": 16,
+      "title": "Beyond the Stars",
+      "genre": "Sci-Fi",
+      "director": "Charles Evans",
+      "year": 2021,
+      "rating": 8.6,
+      "url": "https://picsum.photos/300?16"
+  },
+  {
+      "id": 17,
+      "title": "Lost in Time",
+      "genre": "Fantasy",
+      "director": "Mark Robinson",
+      "year": 2022,
+      "rating": 7.3,
+      "url": "https://picsum.photos/300?17"
+  },
+  {
+      "id": 18,
+      "title": "The Reckoning",
+      "genre": "Thriller",
+      "director": "Alice Carter",
+      "year": 2020,
+      "rating": 7.1,
+      "url": "https://picsum.photos/300?18"
+  },
+  {
+      "id": 19,
+      "title": "Echo of Silence",
+      "genre": "Drama",
+      "director": "Oliver Martinez",
+      "year": 2021,
+      "rating": 8.0,
+      "url": "https://picsum.photos/300?19"
+  },
+  {
+      "id": 20,
+      "title": "Shadows of the Past",
+      "genre": "Horror",
+      "director": "Sophia Turner",
+      "year": 2018,
+      "rating": 7.2,
+      "url": "https://picsum.photos/300?20"
+  }
+]
