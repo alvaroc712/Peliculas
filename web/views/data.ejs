@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head', {title: head_title}) %>
+    <link rel="stylesheet" href="\stylesheets\style.css">
+</head>
+<body>
+
+    <header id="top">
+        <%- include('partials/header') %>
+    </header>
+
+    <main id="movie-details">
+        <div class="container">
+          <h1><%= pelicula.title %></h1>
+          <img src="<%= pelicula.url %>" alt="<%= pelicula.title %>">
+          <p>Género: <span><%= pelicula.genre %></span></p>
+          <p>Director: <span><%= pelicula.director %></span></p>
+          <p>Año: <span><%= pelicula.year %></span></p>
+          <p>Rating: <span><%= pelicula.rating %></span></p>
+        </div>
+      </main>
+      
+
+    <footer>
+        <%- include('partials/footer') %>
+    </footer>
+
+    <script src="/javascripts/script.js"></script>
+    
+</body>
+</html>

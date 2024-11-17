@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <%- include('partials/head', {title: head_title}) %>
+    <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 <body>
 
@@ -11,30 +12,25 @@
 
     <main>
         <section class="container">
-            <section class="info">
-                <h1>Colección de películas</h1>
-                <p>Gestiona tus colecciones de forma fácil y rápida. Busca entre las películas añadidas por otros usuarios y amplía tu colección.</p>
-            </section>
-            
-            <div class="inner" id="movieGallery">
-              <% imagenes.forEach(imagen => { %>
-                  <figure>
-                      <img 
-                          src="<%= imagen.url %>" 
-                          alt="Imagen de la película"
-                          data-title="<%= imagen.title %>"
-                          data-genre="<%= imagen.genre %>"
-                          data-year="<%= imagen.year %>"
-                          data-director="<%= imagen.director %>"
-                          data-rating="<%= imagen.rating %>">
-                      <figcaption><%= imagen.title %></figcaption>
-                  </figure>        
-              <% }) %>  
-            </div>
+    <section class="info">
+        <h1>Colección de películas de <%= userName %></h1>
+    </section>
+    <div>
+        <% if (imagenes && imagenes.length > 0) { %>
+            <% imagenes.forEach(imagen => { %>
+                <div>
+                    <a href="/data/<%= imagen.id %>">
+                        <img src="<%= imagen.url %>" alt="<%= imagen.title %>">
+                        <h3><%= imagen.title %></h3>
+                    </a>
+                </div>
+            <% }); %>
+        <% } else { %>
+            <h2>No tienes películas en tu colección.</h2>
+        <% } %>
+    </div>
+</section>
 
-            <%- include('partials/info') %>
-            
-        </section>
     </main>
 
     <footer>

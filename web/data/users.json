@@ -1,7 +1,72 @@
 [
     {
-        "email":"alvarocozano@gmail.com",
-        "password":"123",
-        "username":"Alvaroc"
+      "id": 1,
+      "name": "Alvaro Cozano",
+      "email": "alvarocozano@gmail.com",
+      "password": "123",
+      "copias": [
+        {
+          "pelicula_id": 1,
+          "estado": "Bueno",
+          "formato": "VHS"
+        },
+        {
+          "pelicula_id": 4,
+          "estado": "Excelente",
+          "formato": "Digital"
+        },
+        {
+          "pelicula_id": 9,
+          "estado": "Bueno",
+          "formato": "DVD"
+        },
+        {
+          "pelicula_id": 14,
+          "estado": "Regular",
+          "formato": "Digital"
+        },
+        {
+          "pelicula_id": 19,
+          "estado": "Bueno",
+          "formato": "DVD"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "María García",
+      "email": "maria.garcia@gmail.com",
+      "password": "1234",
+      "copias": [
+        {
+          "pelicula_id": 2,
+          "estado": "Excelente",
+          "formato": "Digital"
+        },
+        {
+          "pelicula_id": 5,
+          "estado": "Bueno",
+          "formato": "DVD"
+        },
+        {
+          "pelicula_id": 7,
+          "estado": "Regular",
+          "formato": "VHS"
+        },
+        {
+          "pelicula_id": 13,
+          "estado": "Excelente",
+          "formato": "Digital"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Carlos López",
+      "email": "carlos.lopez@gmail.com",
+      "password": "12345",
+      "copias": [
+      ]
     }
-]
+  ]
+  

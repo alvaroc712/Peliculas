@@ -5,6 +5,11 @@ function getAllData() {
     return peliculas;
 }
 
+function getItemData(id) {
+    const item = peliculas.find(a => a.id == id);
+    return item;
+}
+
 function validateUser(email,password){
     let u = usuarios.filter(
         (u)=>{
@@ -18,7 +23,17 @@ function validateUser(email,password){
     
 }
 
+function getMoviesByUser(email) {
+    const user = usuarios.find(u => u.email === email);
+    if (!user || !user.copias) return [];
+
+    return peliculas.filter(movie => user.copias.some(copia => copia.pelicula_id === movie.id));
+}
+
+
 module.exports = {
     getAllData,
-    validateUser
+    getItemData,
+    validateUser,
+    getMoviesByUser
 };
